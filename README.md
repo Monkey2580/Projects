@@ -17,3 +17,6 @@ The A* algorithm is used to find the shortest path to visit every destination.
 This project focuses on solving the N-Queen problem, which involves:
 - Determining the position of each queen on an `x` by `x` chessboard
 - Ensuring that no queen intersects with another's path
+
+## DFS Max Score
+This project is showcasing to get a max score using DFS (Depth First Search) and Memo Map
