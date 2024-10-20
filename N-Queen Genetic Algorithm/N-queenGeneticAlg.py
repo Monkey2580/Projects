@@ -100,14 +100,14 @@ for i in range(population):
 check_fittest(list_of_boards)
 j = 10
 sort_list(list_of_boards)
-list_of_boards = crossover(list_of_boards)
-gen = 0
+gen = 1
 t1_start = process_time()
 solution =0
 while j!=0:
 
     list_of_boards = crossover(list_of_boards)
     check_fittest(list_of_boards)
+    sort_list(list_of_boards)
     for i in list_of_boards:
         if i.Attack == 0:
             sort_list(list_of_boards)
