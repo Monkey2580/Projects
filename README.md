@@ -21,6 +21,7 @@ A project focused on solving the classic **N-Queen problem**, ensuring that no t
 - Improved queen attack calculation.
 - Removed array-based board representation for better efficiency.
 - Eliminated unnecessary global variables.
+- Improve the logic of the driver algorithm
 - **Future Improvements:** Further optimization by reducing redundant logic and improving Pythonic code structure.
 
 ## DFS Max Score
