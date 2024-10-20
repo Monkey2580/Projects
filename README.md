@@ -1,27 +1,28 @@
-These are some projects I worked on during my spare time, as well as projects assigned to me during my college days.
+# Projects Overview
+These are personal projects I've worked on in my spare time, along with some college assignments. They showcase my work with algorithms, computer graphics, and optimization techniques.
 
 ## 3D Sphere Project
-This project was a college assignment where I had to represent a sphere using:
-- Flat shading
-- Gouraud shading
-- Phong shading
+A college assignment to represent a 3D sphere using various shading techniques:
+- **Flat Shading**
+- **Gouraud Shading**
+- **Phong Shading**
 
 Additional features:
-- Translate the sphere
-- Change the coordinates of the light source
+- Sphere translation
+- Adjustable light source coordinates
 
 ## A* Algorithm
-The A* algorithm is used to find the shortest path to visit every destination.
+An implementation of the **A*** algorithm to find the shortest path to visit every destination.
 
 ## N-Queen Problem
-This project focuses on solving the N-Queen problem, which involves:
-- Determining the position of each queen on an `x` by `x` chessboard
-- Ensuring that no queen intersects with another's path
-Update 20-10-2024:
-- Improving queen attacked calculation
-- Remove board in an array format to calculate position
-- Remove unnecessary global variable
-- Things to improve : the code can still be improve by "python-ing" the code and remove duplicate logic operation
+A project focused on solving the classic **N-Queen problem**, ensuring that no two queens can attack each other on an `x` by `x` chessboard.
+
+**Update (20-10-2024):**
+- Improved queen attack calculation.
+- Removed array-based board representation for better efficiency.
+- Eliminated unnecessary global variables.
+- **Future Improvements:** Further optimization by reducing redundant logic and improving Pythonic code structure.
 
 ## DFS Max Score
-This project is showcasing to get a max score using DFS (Depth First Search) and Memo Map
+This project demonstrates the use of **Depth First Search (DFS)** and memoization to achieve the maximum score in a problem space.
+
